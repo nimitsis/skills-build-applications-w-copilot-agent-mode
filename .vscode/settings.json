@@ -1,0 +1,8 @@
+{
+    "chat.tools.terminal.autoApprove": {
+        "/^source octofit-tracker/backend/venv/bin/activate && django-admin startproject octofit_tracker octofit-tracker/backend && cd octofit-tracker/backend/octofit_tracker && python manage\\.py migrate$/": {
+            "approve": true,
+            "matchCommandLine": true
+        }
+    }
+}
